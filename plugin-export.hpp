@@ -22,7 +22,7 @@ private:
     uint16_t ticks;
 } pluginExample;
 
-extern "C" __attribute__((visibility("default"))) Native_Function_List *RegisterNatives()
+extern "C" Native_Function_List *RegisterNatives()
 {
     return pluginExample.RegisterNatives();
 }
