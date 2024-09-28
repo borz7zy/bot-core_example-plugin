@@ -1,3 +1,6 @@
+#ifndef _PLUGIN_EXAMPLE_HPP
+#define _PLUGIN_EXAMPLE_HPP
+
 #include <sdk.hxx>
 #include <cstdint>
 
@@ -31,3 +34,5 @@ extern "C" PLUGIN_EXPORT void update_ticks()
 {
     pluginExample.TickUpdate();
 }
+
+#endif
