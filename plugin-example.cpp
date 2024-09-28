@@ -1,4 +1,4 @@
-#include "plugin-export.hpp"
+#include "plugin-example.hpp"
 #include <iostream>
 
 PluginExample::PluginExample()
